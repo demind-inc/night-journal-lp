@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,600;0,700;1,600;1,700&family=Nunito+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Colors */
+  /* Synced with NightJournal/DesignSystem/Colors.swift */
+  --color-ink-black: #241d49; /* njPaperInk */
+  --color-parchment-cream: #f2effb; /* njPaper */
+  --color-sand-gray: #d4d0e8; /* njPaperDim */
+  --color-linen-beige: #d4d0e8; /* njPaperDim (closest) */
+  --color-paper-white: #fbfaff; /* njPaperHi */
+  --color-charcoal-stone: #241d49;
+  --color-ash-gray: color-mix(in oklab, #241d49 62%, #f2effb);
+  --color-electric-violet: #9b8bf0; /* njAccent */
+  --color-twilight-indigo: #161334; /* njBg */
+  --color-tangerine: #ff9147;
+  --color-aqua-teal: #4ad5e8;
+  --color-sunshine-yellow: #f6cea0; /* njFillWarm (used as "sun") */
+  --color-lilac-mist: #c8b4ff; /* njLilac */
+  --color-pale-violet: #b0a4ff; /* njMoonGlow base */
+  --color-deep-violet: #341e6b; /* njPlum700 */
+  --color-coral-red: #ee5968;
+  --color-mint-green: #9bd6c6; /* njSage */
+  --color-forest-green: #00a63e;
+
+  /* Typography */
+  --font-new-kansas: 'DM Serif Display', ui-serif, Georgia, serif;
+  --font-brand: 'Nunito', ui-rounded, 'SF Pro Rounded', var(--font-nunito-sans);
+  --font-nunito-sans: 'Nunito Sans', ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Layout */
+  --page-max-width: 1200px;
+
+  /* Radii */
+  --radius-cards: 12px;
+  --radius-buttons: 12px;
+  --radius-pills: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: rgb(237, 234, 228) 0px 0px 0px 1px,
+    oklch(0.23 0.002 98 / 0.04) 0px 1px 1px -0.5px,
+    oklch(0.23 0.002 98 / 0.04) 0px 3px 3px -1.5px,
+    oklch(0.23 0.002 98 / 0.04) 0px 6px 6px -3px,
+    oklch(0.23 0.002 98 / 0.02) 0px 12px 12px -6px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden; /* hard lock: no scrolling */
+  background: var(--color-parchment-cream);
+  color: var(--color-ink-black);
+  font-family: var(--font-nunito-sans);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
