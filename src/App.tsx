@@ -41,8 +41,8 @@ export default function App() {
             </h1>
 
             <p className="lp-subhead">
-              2am note is a calming bedtime journal to unwind before sleep. Speak or write your
-              thoughts, let go of the day, and build a healthier nighttime routine.
+              A calming bedtime journal to unwind before sleep. Speak or write your thoughts and
+              let go of the day.
             </p>
 
             <div className="lp-actions" id="download">
@@ -62,8 +62,15 @@ export default function App() {
             <div
               className="lp-visual__col lp-visual__col--left"
               aria-label="iPhone preview"
-              onPointerEnter={() => setPhoneHovered(true)}
-              onPointerLeave={() => setPhoneHovered(false)}
+              onPointerEnter={(e) => {
+                if (e.pointerType !== 'touch') setPhoneHovered(true);
+              }}
+              onPointerLeave={(e) => {
+                if (e.pointerType !== 'touch') setPhoneHovered(false);
+              }}
+              onPointerUp={(e) => {
+                if (e.pointerType === 'touch') setPhoneHovered((hovered) => !hovered);
+              }}
             >
               <div className="lp-phone__toggle" role="tablist" aria-label="Screens"></div>
 

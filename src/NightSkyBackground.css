@@ -209,6 +209,29 @@
   }
 }
 
+@media (max-width: 640px) {
+  .lp-sky__moon {
+    top: 2%;
+    right: 6%;
+    width: clamp(48px, 12vw, 68px);
+  }
+
+  .lp-sky__pool--1 {
+    width: 180px;
+    height: 180px;
+  }
+
+  .lp-sky__pool--2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .lp-sky__pool--3 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .lp-sky__pool,
   .lp-sky__star,

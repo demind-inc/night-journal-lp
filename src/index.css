@@ -58,10 +58,25 @@ body,
 
 body {
   margin: 0;
-  overflow: hidden; /* hard lock: no scrolling */
+  overflow: hidden; /* desktop: single-screen, no scroll */
   background: var(--color-parchment-cream);
   color: var(--color-ink-black);
   font-family: var(--font-nunito-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 980px) {
+  html,
+  body,
+  #root {
+    height: auto;
+    min-height: 100dvh;
+  }
+
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 }
 
 *,

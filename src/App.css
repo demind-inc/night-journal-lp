@@ -398,30 +398,234 @@
 }
 
 @media (max-width: 980px) {
+  .lp {
+    height: auto;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+
+  .lp-nav {
+    height: 56px;
+    padding: 0 16px;
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  .lp-hero {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px 16px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
   .lp-hero__inner {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .lp-copy {
+    max-width: none;
+    text-align: center;
+  }
+
+  .lp-subhead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lp-actions {
+    justify-items: center;
+  }
+
+  .lp-note {
+    display: none;
   }
 
   .lp-visual {
-    height: min(420px, calc(100vh - 64px - 40px));
-    grid-template-columns: 1fr;
-    gap: 14px;
+    position: relative;
+    display: block;
+    height: auto;
+    min-height: 0;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .lp-visual__col--left {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .lp-visual__col--right {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 2;
+    width: min(300px, 78vw);
+    transform: translateX(-50%) translateY(-24%);
+    pointer-events: none;
+    justify-items: center;
   }
 
   .lp-phone__frame {
-    width: min(280px, 70%);
-    transform: rotate(-3deg);
-    opacity: 0.95;
+    width: min(220px, 54vw);
+    padding: 11px;
+    border-radius: 38px;
+    transform: none;
+    margin: min(72px, 18vw) auto 0;
+    opacity: 1;
+  }
+
+  .lp-phone__screen {
+    border-radius: 30px;
   }
 
   .lp-lottie--main {
-    width: min(420px, 100%);
+    width: 100%;
   }
 
   .lp-lottie--main > div,
   .lp-lottie--main svg,
   .lp-lottie--main canvas {
-    transform: scale(1.8);
+    transform: scale(1.65);
+  }
+
+  .lp-footer {
+    flex: 0 0 auto;
+    margin-top: auto;
+    padding: 16px;
+    padding-bottom: max(18px, env(safe-area-inset-bottom, 0px));
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+
+  .lp-footer__inner {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .lp-nav {
+    height: 52px;
+  }
+
+  .lp-brand__logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+  }
+
+  .lp-brand__title {
+    font-size: 16px;
+  }
+
+  .lp-hero {
+    padding-top: 4px;
+    padding-bottom: 12px;
+  }
+
+  .lp-hero__inner {
+    gap: 20px;
+  }
+
+  .lp-title {
+    font-size: clamp(32px, 9vw, 40px);
+    line-height: 1.1;
+  }
+
+  .lp-subhead {
+    margin-top: 12px;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 36ch;
+  }
+
+  .lp-actions {
+    margin-top: 18px;
+    gap: 8px;
+  }
+
+  .lp-visual__col--right {
+    width: min(240px, 82vw);
+    transform: translateX(-50%) translateY(-22%);
+  }
+
+  .lp-phone__frame {
+    width: min(188px, 56vw);
+    padding: 9px;
+    border-radius: 32px;
+    margin-top: min(64px, 16vw);
+    cursor: pointer;
+    box-shadow: 0 0 0 1px color-mix(in oklab, var(--color-paper-white) 22%, transparent),
+      0 12px 28px color-mix(in oklab, var(--color-twilight-indigo) 40%, transparent);
+  }
+
+  .lp-phone__screen {
+    border-radius: 26px;
+  }
+
+  .lp-phone__screen::before {
+    top: 8px;
+    height: 15px;
+  }
+
+  .lp-lottie--main > div,
+  .lp-lottie--main svg,
+  .lp-lottie--main canvas {
+    transform: scale(1.45);
+  }
+
+  .lp-cat-zzz {
+    font-size: 14px;
+    top: -12%;
+  }
+
+  .lp-footer__inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .lp-footer__links {
+    gap: 18px;
+  }
+}
+
+@media (max-width: 380px) {
+  .lp-title {
+    font-size: 30px;
+  }
+
+  .lp-visual__col--right {
+    width: min(210px, 86vw);
+    transform: translateX(-50%) translateY(-20%);
+  }
+
+  .lp-phone__frame {
+    width: min(168px, 58vw);
+    margin-top: min(56px, 14vw);
+  }
+
+  .lp-lottie--main > div,
+  .lp-lottie--main svg,
+  .lp-lottie--main canvas {
+    transform: scale(1.3);
+  }
+}
+
+@media (max-width: 980px) and (hover: none) {
+  .lp-lottie--main:hover {
+    cursor: default;
+  }
+
+  .lp-lottie--main:hover .lp-cat-zzz {
+    opacity: 0;
+    animation: none;
   }
 }
