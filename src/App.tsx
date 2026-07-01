@@ -27,12 +27,12 @@ export default function App() {
         <div className="lp-nav__inner">
           <div className="lp-brand">
             <img className="lp-brand__logo" src="/favicon.ico" alt="" width={28} height={28} />
-            <span className="lp-brand__title">2am note</span>
+            <span className="lp-brand__title">meow note</span>
           </div>
         </div>
       </header>
 
-      <main className="lp-hero" aria-label="2am note landing">
+      <main className="lp-hero" aria-label="meow note landing">
         <div className="lp-hero__inner">
           <section className="lp-copy">
             <h1 className="lp-title">
