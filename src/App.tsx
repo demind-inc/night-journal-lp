@@ -7,7 +7,7 @@ import downloadIosBadge from './assets/download-ios.svg';
 import { NightSkyBackground } from './NightSkyBackground';
 import './App.css';
 
-const DOWNLOAD_URL = import.meta.env.VITE_DOWNLOAD_URL ?? 'https://apps.apple.com/'; // set VITE_DOWNLOAD_URL in .env.local
+const DOWNLOAD_URL = import.meta.env.VITE_DOWNLOAD_URL ?? 'https://apps.apple.com/app/id6776287385'; // set VITE_DOWNLOAD_URL in .env.local
 const COMPANY_URL =
   'https://demind-inc.notion.site/Company-Info-f7164ebf909b4c42a38ae6951d8376b2?source=copy_link';
 const CONTACT_EMAIL = 'contact@demind-inc.com';
