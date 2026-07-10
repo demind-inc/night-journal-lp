@@ -4,11 +4,103 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="meow note — a calming bedtime journal to unwind before sleep. Speak or write your thoughts and let go of the day." />
-    <title>meow note</title>
+    <title>meow note — Calming Bedtime Journal & Sleep Diary App</title>
+    <meta
+      name="description"
+      content="meow note is a calming bedtime journal for iPhone. Speak or write your thoughts, let go of the day, and fall asleep with a quieter mind. Free on the App Store."
+    />
+    <link rel="canonical" href="https://www.meownoteapp.com/" />
+    <meta name="theme-color" content="#161334" />
+    <meta name="apple-itunes-app" content="app-id=6776287385" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="meow note" />
+    <meta property="og:title" content="meow note — Calming Bedtime Journal & Sleep Diary App" />
+    <meta
+      property="og:description"
+      content="Speak or write your thoughts before bed and let go of the day. Sleep better. Reflect deeper. Wake up lighter."
+    />
+    <meta property="og:url" content="https://www.meownoteapp.com/" />
+    <meta property="og:image" content="https://www.meownoteapp.com/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="meow note — Calming Bedtime Journal & Sleep Diary App" />
+    <meta
+      name="twitter:description"
+      content="Speak or write your thoughts before bed and let go of the day. Sleep better. Reflect deeper. Wake up lighter."
+    />
+    <meta name="twitter:image" content="https://www.meownoteapp.com/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "meow note: night journal",
+        "url": "https://www.meownoteapp.com/",
+        "description": "A calming bedtime journal to unwind before sleep. Speak or write your thoughts and let go of the day.",
+        "operatingSystem": "iOS",
+        "applicationCategory": "HealthApplication",
+        "installUrl": "https://apps.apple.com/app/id6776287385",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "DeMind Inc.",
+          "email": "contact@demind-inc.com"
+        }
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static snapshot for crawlers without JS; replaced by React on load. Keep in sync with src/App.tsx. -->
+      <div class="lp">
+        <header class="lp-nav">
+          <div class="lp-nav__inner">
+            <div class="lp-brand">
+              <img class="lp-brand__logo" src="/favicon.ico" alt="" width="28" height="28" />
+              <span class="lp-brand__title">meow note</span>
+            </div>
+          </div>
+        </header>
+        <main class="lp-hero" aria-label="meow note landing">
+          <div class="lp-hero__inner">
+            <section class="lp-copy">
+              <h1 class="lp-title">Sleep starts with <br />a quieter mind.</h1>
+              <p class="lp-subhead">
+                A calming bedtime journal to unwind before sleep. Speak or write your thoughts and
+                let go of the day.
+              </p>
+              <div class="lp-actions" id="download">
+                <a class="lp-downloadBadge" href="https://apps.apple.com/app/id6776287385">
+                  Download on the App Store
+                </a>
+                <div class="lp-note">Sleep better. Reflect deeper. Wake up lighter.</div>
+              </div>
+            </section>
+          </div>
+        </main>
+        <footer class="lp-footer">
+          <div class="lp-footer__inner">
+            <span>Copyright 2026 © DeMind Inc.</span>
+            <nav class="lp-footer__links" aria-label="Footer">
+              <a
+                href="https://demind-inc.notion.site/Company-Info-f7164ebf909b4c42a38ae6951d8376b2?source=copy_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Company</a
+              >
+              <a href="mailto:contact@demind-inc.com">Contact</a>
+            </nav>
+          </div>
+        </footer>
+      </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -36,7 +36,7 @@ export default function App() {
         <div className="lp-hero__inner">
           <section className="lp-copy">
             <h1 className="lp-title">
-              Sleep starts with
+              Sleep starts with{' '}
               <br />a quieter mind.
             </h1>
 
