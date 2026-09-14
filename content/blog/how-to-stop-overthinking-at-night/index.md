@@ -10,7 +10,7 @@ coverAlt: "Night sky with a glowing moon and the text Stop Overthinking at Night
 
 It is 1 a.m. You are not worried about anything urgent. But if you are trying to stop overthinking at night, you know this scene: your brain has decided to replay an email from three weeks ago, rehearse a conversation for tomorrow, and also, somehow, surface something embarrassing from 2016.
 
-This is one of the most common reasons people lie awake for hours, and one of the most searched sleep topics. The causes are real, the patterns are well-understood, and the fixes are gentler than you might expect. None of them require willpower or a perfectly calm personality.
+This is one of the most common reasons people lie awake for hours. The causes are real, the patterns are well-understood, and the fixes are gentler than you might expect. None of them require willpower or a perfectly calm personality.
 
 These nine approaches are practical and designed for real nighttime conditions: when you are tired, when reading feels hard, and when you just want your mind to go quiet.
 
@@ -24,7 +24,7 @@ These nine approaches are practical and designed for real nighttime conditions: 
 
 During the day, your brain is occupied. Tasks, conversations, and small decisions fill the foreground. When those go quiet at bedtime, unresolved thoughts move to the front. There is nothing competing for attention.
 
-A 2021 study published in *Sleep* found that people with high nocturnal cognitive arousal took, on average, [37 minutes longer to fall asleep](https://pmc.ncbi.nlm.nih.gov/articles/PMC8212183/) than those with lower arousal levels, and needed 45 additional minutes to reach persistent sleep. That is not a small gap. And the same study found that cognitive arousal predicted sleep disturbance more strongly than an insomnia diagnosis itself.
+A 2020 study in *Sleep Medicine* found that people with high nocturnal cognitive arousal took, on average, [37 minutes longer to fall asleep](https://pmc.ncbi.nlm.nih.gov/articles/PMC8212183/) than those with lower arousal levels, and needed 45 additional minutes to reach persistent sleep. That is not a small gap. And the same study found that cognitive arousal predicted sleep disturbance more strongly than an insomnia diagnosis itself.
 
 The [Sleep Foundation](https://www.sleepfoundation.org/mental-health/anxiety-and-sleep) explains the mechanism: when the mind stays active, cortisol and adrenaline stay elevated, raising heart rate and keeping the brain on alert. Sleep needs the opposite.
 
@@ -36,7 +36,9 @@ This sounds counterintuitive, but giving worry a dedicated slot actually shrinks
 
 Set a 15-20 minute "worry window" in the early evening (at least two hours before bed). Sit with a notebook and write down everything that is bothering you. Worries, unfinished tasks, tomorrow's concerns. Then close it and move on.
 
-When a worry surfaces at midnight, your brain has a record of it. You can honestly say: "I already addressed that." A randomized controlled trial on [worry postponement](https://www.tandfonline.com/doi/full/10.1080/08870446.2025.2590072) found that scheduling worry to a specific daily window reduced its frequency and intensity at night, improving both sleep onset and quality.
+When a worry surfaces at midnight, your brain has a record of it. You can honestly say: "I already addressed that."
+
+Make the plan specific. A 2025 randomized controlled trial on [worry postponement](https://www.tandfonline.com/doi/full/10.1080/08870446.2025.2590072) found that people who paired the worry window with an if-then plan ("if a worry shows up before 7 p.m., I write it down and save it for my window") cut their daily worry time by about 15 minutes. Over the two-week study it did not measurably change sleep on its own, so treat it as a way to shrink the worry pile, and pair it with the bedtime steps below.
 
 This works because you are not suppressing the thought. You are moving it, not erasing it.
 
@@ -44,7 +46,9 @@ This works because you are not suppressing the thought. You are moving it, not e
 
 Lying in bed with a list of unfinished thoughts in your head is like trying to close a laptop with 40 browser tabs open. The brain dump is a pre-shutdown protocol.
 
-Ten to fifteen minutes before sleep, write out everything your mind is holding: the thing you need to do tomorrow, the thing you are worried you forgot, the conversation you keep replaying. Get it out. Research by psychologist [Dr. James Pennebaker](https://liberalarts.utexas.edu/psychology/faculty/pennebak) at the University of Texas found that externalizing thoughts through writing significantly reduces anxiety and cortisol levels.
+Ten to fifteen minutes before sleep, write out everything your mind is holding: the thing you need to do tomorrow, the thing you are worried you forgot, the conversation you keep replaying. Get it out.
+
+Be specific about tomorrow. In a [sleep-lab study at Baylor University](https://pmc.ncbi.nlm.nih.gov/articles/PMC5758411/), people who spent five minutes writing a to-do list for the coming days fell asleep significantly faster than people who wrote about tasks they had already finished, and the more specific the list, the faster they fell asleep. "Email Sam about the invoice before 10" beats "work stuff."
 
 For nights when you are too tired to write, meow note's voice journaling lets you just talk the day out. Even a few sentences spoken aloud is enough to offload what the mind is holding and close the loop.
 
@@ -58,7 +62,7 @@ Consistency matters more than any single technique. A short, repeatable sequence
 - **5 minutes before:** progressive muscle relaxation: squeeze and release from feet upward (toes, calves, thighs, abdomen, hands, shoulders); takes about 4 minutes
 - **Lights out**
 
-Progressive muscle relaxation consistently reduces physiological arousal and sleep latency in sleep research. You are not curing overthinking in a night. You are training a reflex.
+Relaxation training like this is one of the tools used in [CBT-I](https://www.sleepfoundation.org/insomnia/treatment/cognitive-behavioral-therapy-insomnia), the standard therapy for insomnia. You are not curing overthinking in a night. You are training a reflex.
 
 ## 4. Use "postpone it" as a redirect
 
@@ -101,22 +105,22 @@ None of these require dramatic change. Small adjustments, one at a time, compoun
 
 One of the harder aspects of overthinking is that the mind, once activated, keeps searching for something to latch onto. Ambient sound gives it something neutral.
 
-Brown noise, rain sounds, or slow instrumental music can act as anchors for wandering attention. The research is modest but consistent: background sound reduces the contrast between silence and thought, which is part of what makes nighttime rumination feel so amplified when the room is quiet.
+Brown noise, rain sounds, or slow instrumental music can act as anchors for wandering attention. For a lot of people, a steady background sound softens the contrast between silence and thought, which is part of what makes nighttime rumination feel so loud when the room is quiet. The evidence here is thinner than for the steps above, so treat it as a comfort, not a cure.
 
-## 9. Review the day before you try to sleep
+## 9. Keep the look-back short and end on tomorrow
 
-It sounds counterintuitive: thinking on purpose before sleep, to stop thinking accidentally.
+It is tempting to replay the whole day before bed. Resist the long version.
 
-Take two minutes to do a brief, slow review of your day. What happened. How it felt. What you are setting aside until tomorrow. This gives the brain's consolidation process something concrete and bounded to work with, rather than leaving it to choose its own targets.
+A [study of people with insomnia](https://pmc.ncbi.nlm.nih.gov/articles/PMC2871974/) found that rumination (going over past events and how you felt about them) was tied to worse sleep, while future-focused worry was not. Pair that with the to-do list finding above and the pattern is clear: dwelling backward keeps you up, and parking things forward helps you let go.
 
-The research on [rumination and sleep](https://pmc.ncbi.nlm.nih.gov/articles/PMC2871974/) found that rumination (replaying past events) is a stronger predictor of disrupted sleep than future-focused worry. A short intentional review at the end of the day closes more loops than leaving the mind to do it randomly at 2 a.m.
+So if you want to reflect, give it two or three sentences: one thing that went okay, one thing you are setting down for tonight. Then finish with tomorrow's specific list and close the notebook.
 
 ## What works and what does not
 
 | What tends to help | Why |
 |---|---|
 | Scheduling worry earlier | Moves rumination out of bed; your brain trusts the thought is captured |
-| Brain dump before sleep | Cognitive offloading reduces intrusive thoughts |
+| A specific to-do list at bedtime | Parks tomorrow's tasks so you fall asleep faster |
 | Progressive muscle relaxation | Lowers physiologic arousal directly |
 | Stimulus control (get up) | Breaks the bed-anxiety association |
 | Ambient sound | Reduces contrast between silence and thought |
@@ -142,7 +146,7 @@ During the day, external stimulation keeps your mind occupied. At night, those c
 
 ### How long does it take to stop overthinking at night?
 
-Most people notice improvement within two to three weeks of consistent practice. The brain dump and worry-scheduling approaches often help within the first few nights. Stimulus control (getting out of bed when awake) takes longer because it requires unlearning an association your brain may have built over months.
+There is no fixed timeline. A bedtime to-do list is something you can try tonight, and many people find it helps from the first few nights. Stimulus control (getting out of bed when awake) takes longer because it requires unlearning an association your brain may have built over months.
 
 ### Can journaling make overthinking worse?
 
