@@ -107,6 +107,7 @@ export default function App() {
         <div className="lp-footer__inner">
           <span>Copyright 2026 © DeMind Inc.</span>
           <nav className="lp-footer__links" aria-label="Footer">
+            <a href="/blog">Blog</a>
             <a href={COMPANY_URL} target="_blank" rel="noopener noreferrer">
               Company
             </a>
