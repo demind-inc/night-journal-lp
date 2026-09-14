@@ -52,7 +52,7 @@ Be specific about tomorrow. In a [sleep-lab study at Baylor University](https://
 
 For nights when you are too tired to write, meow note's voice journaling lets you just talk the day out. Even a few sentences spoken aloud is enough to offload what the mind is holding and close the loop.
 
-## 3. Try the 5-minute wind-down sequence
+## 3. Try a 30-minute wind-down sequence
 
 Consistency matters more than any single technique. A short, repeatable sequence tells your nervous system that sleep is coming:
 
