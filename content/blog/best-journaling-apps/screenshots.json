@@ -1,0 +1,35 @@
+{
+  "apps": [
+    {
+      "name": "meow note",
+      "url": "https://www.meownoteapp.com",
+      "screenshot": "meownote-screen.jpg",
+      "source": "/Users/admin/Work/night-journal-lp/src/assets/home.png"
+    },
+    {
+      "name": "Day One",
+      "url": "https://dayoneapp.com",
+      "screenshot": "dayone-screen.jpg"
+    },
+    {
+      "name": "Daylio",
+      "url": "https://daylio.net",
+      "screenshot": "daylio-screen.jpg"
+    },
+    {
+      "name": "stoic",
+      "url": "https://getstoic.com",
+      "screenshot": "stoic-screen.jpg"
+    },
+    {
+      "name": "Journey",
+      "url": "https://journey.cloud",
+      "screenshot": "journey-screen.jpg"
+    },
+    {
+      "name": "Reflectly",
+      "url": "https://reflectlyapp.com",
+      "screenshot": "reflectly-screen.jpg"
+    }
+  ]
+}
